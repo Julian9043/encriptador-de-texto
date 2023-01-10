@@ -14,43 +14,12 @@
 	<body>
 	
 		<header class="tituloprincipal" id="tituloprincipal">Encriptador de texto
-	<!--	<script>
-  const tituloprincipal = document.getElementById('tituloprincipal');
-  let currentText = '1q2w3e4r5t6y7u8i9o0$%';
-  let newText = 'Encriptador de texto';
-  let index = 0;
-  let intervalId;
-  let timeoutId;
-
-  function updateText() {
-    if (index < newText.length) {
-      currentText = currentText.slice(0, index) + newText[index] + currentText.slice(index + 3);
-      tituloprincipal.innerHTML = currentText;
-      index++;
-      timeoutId = setTimeout(updateText, 200);
-    } else {
-      clearTimeout(timeoutId);
-      intervalId = setInterval(switchText, 3000);
-    }
-  }
-
-  function switchText() {
-    currentText = newText;
-    newText = (newText === 'ncriptador de texto') ? '1q2w3e4r5t6y7u8i9o0$%' : 'ncriptador de texto';
-    index = 0;
-    updateText();
-  }
-
- updateText()
-</script> -->
-
-
-
+	
 		</header>
 		
 		<!-- Biblioteca CryptoJS en tu archivo HTML -->
 		
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+		<script src="encriptar-js.min.js"></script>
 
 		<!-- Crea un formulario para capturar el texto a encriptar y el texto encriptado -->
 		
