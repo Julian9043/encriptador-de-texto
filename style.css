@@ -1,6 +1,5 @@
 /*index*/
 
-
 canvas {
   width: 100%;
   height: 80%;
@@ -152,33 +151,18 @@ p{
 
 /*
 
-
-
 .boton:hover {
   box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
 }
-
-
-
-
-
-
-
-
 
 .encriptado{
 	position: 0px auto;
 	margin: 50px auto;
 }
 
-
-
-
-
 .encriptar{
 	position: absolute;
 	margin: 550px 250px;
-	
 }
 
 .desencriptar{
