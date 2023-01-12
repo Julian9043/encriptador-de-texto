@@ -1,6 +1,5 @@
 /*index*/
 
-
 #canvas {
     width: calc(100%);
     height: calc(100%);
@@ -8,7 +7,6 @@
 	top:0;
 	left:0;
 	z-index:-1;
-}
 
 
 header{
@@ -162,8 +160,6 @@ p{
   to { transform: translateY(100%); }
 }
 
-
-
 .overlay {
     position: fixed;
     top: 0;
@@ -211,7 +207,7 @@ p{
 	border-radius: 0.3em;
 	margin-top: 5px;
 	margin-bottom: 7px;
-}
+
 .botonpop {
 	border-color: #3498db;
 	color: #fff;
@@ -236,3 +232,4 @@ p{
 .botonpop:hover{
 	background: #0058ff;
 	transform: scale(1.10);
+}
